@@ -1,14 +1,8 @@
 const mongoose = require('mongoose')
-const {TodoSchema, model, TodoTypes} = mongoose
-const List = require('./list.model')
+const {Schema, model} = mongoose
 
-const todoSchema = new TodoSchema({
-    
-    id:{
-        type:Number,
-        required:true,
-        unique: true
-    },
+
+const todoSchema = new Schema({
 
     listId:{
         type:mongoose.Schema.Types.ObjectId,
