@@ -6,14 +6,14 @@ const {Schema, model} = mongoose
 const userSchema = new Schema({
     
     email:{
-        type:String,
-        required:true,
-        unique: true
+        type: String,
+        required: true,
+        unique: true,
     },
 
     password:{
-        type:String,
-        required:true,
+        type: String,
+        required: true,
     }
 })
 
