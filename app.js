@@ -24,12 +24,3 @@ app.listen(PORT, () => {
   })
 
 
-
-  // Connexion à la base de données MongoDB
-// mongoose.connect(process.env.MONGODB_URI, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// })
-//   .then(() => console.log('Connexion à la base de données réussie !'))
-//   .catch((error) => console.log('Connexion à la base de données échouée :', error))
-//   console.log("MONGO_URI", process.env.MONGO_URI);
